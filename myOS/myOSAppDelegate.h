@@ -6,6 +6,8 @@
 //  Copyright 2554 TNS. All rights reserved.
 //
 
+//AAA
+
 #import <UIKit/UIKit.h>
 
 @interface myOSAppDelegate : NSObject <UIApplicationDelegate>

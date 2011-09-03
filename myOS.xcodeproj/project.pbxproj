@@ -14,6 +14,7 @@
 		9E25ACF61411E2AC00AA9459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E25ACF51411E2AC00AA9459 /* main.m */; };
 		9E25ACFA1411E2AC00AA9459 /* myOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E25ACF91411E2AC00AA9459 /* myOSAppDelegate.m */; };
 		9E25ACFD1411E2AC00AA9459 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E25ACFB1411E2AC00AA9459 /* MainWindow.xib */; };
+		9E25AD091411EE3F00AA9459 /* NewClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E25AD081411EE3F00AA9459 /* NewClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		9E25ACF81411E2AC00AA9459 /* myOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myOSAppDelegate.h; sourceTree = "<group>"; };
 		9E25ACF91411E2AC00AA9459 /* myOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myOSAppDelegate.m; sourceTree = "<group>"; };
 		9E25ACFC1411E2AC00AA9459 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9E25AD071411EE3F00AA9459 /* NewClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewClass.h; sourceTree = "<group>"; };
+		9E25AD081411EE3F00AA9459 /* NewClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				9E25ACF91411E2AC00AA9459 /* myOSAppDelegate.m */,
 				9E25ACFB1411E2AC00AA9459 /* MainWindow.xib */,
 				9E25ACF01411E2AC00AA9459 /* Supporting Files */,
+				9E25AD071411EE3F00AA9459 /* NewClass.h */,
+				9E25AD081411EE3F00AA9459 /* NewClass.m */,
 			);
 			path = myOS;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 			files = (
 				9E25ACF61411E2AC00AA9459 /* main.m in Sources */,
 				9E25ACFA1411E2AC00AA9459 /* myOSAppDelegate.m in Sources */,
+				9E25AD091411EE3F00AA9459 /* NewClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +272,7 @@
 				9E25AD021411E2AC00AA9459 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
